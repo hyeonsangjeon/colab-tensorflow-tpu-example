@@ -23,3 +23,14 @@ strategy = tf.distribute.experimental.TPUStrategy(resolver) # TPU모드
 with strategy.scope():
     sentiment_model = create_sentiment_bert() 
 ```
+
+
+#### model training speed
+
+##### GPU
+physical_device_desc: "device: 0, name: Tesla T4, pci bus id: 0000:00:04.0, compute capability: 7.5"
+
+
+
+##### TPU
+
