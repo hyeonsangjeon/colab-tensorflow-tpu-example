@@ -28,9 +28,10 @@ with strategy.scope():
 ### 2. model training speed
 
 ##### GPU
+GPU was randomly selected for P100, k80, and T4. The picture below is T4
 physical_device_desc: "device: 0, name: Tesla T4, pci bus id: 0000:00:04.0, compute capability: 7.5"
-
+![screenshot1](https://github.com/hyeonsangjeon/colab-tensorflow-tpu-example/blob/main/pic/T4_GPU_time_per_epoch.png?raw=true)
 
 
 ##### TPU
-
+![screenshot1](https://github.com/hyeonsangjeon/colab-tensorflow-tpu-example/blob/main/pic/TPUs_time_per_epoch.png?raw=true)
